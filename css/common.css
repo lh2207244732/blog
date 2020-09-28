@@ -1,14 +1,26 @@
+body {
+    background-color: #f1f1f1;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #f65a8a !important;
+}
+
 #custom-navbar {
     opacity: .8;
 }
-#custom-navbar .nav a{
+
+#custom-navbar .nav a {
     font-size: 16px;
     margin-left: 20px;
 }
-#custom-navbar .nav .active>a{
+
+#custom-navbar .nav .active>a {
     background: transparent;
     color: #f65a8a;
-} 
-#custom-navbar .nav a:hover{
-    color: #f65a8a;
+}
+
+.main {
+    margin-top: 70px;
 }

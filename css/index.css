@@ -1,3 +1,71 @@
-.main{
+.main {
     height: 3000px;
+}
+
+.custom-carousel {
+    margin-bottom: 20px;
+}
+
+.custom-carousel .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#hotWrite {
+    border: none;
+}
+
+#hotWrite .panel-heading,
+#hotWrite .panel-footer {
+    background-color: #ffffff;
+    border: none;
+}
+
+#hotWrite .panel-footer .text {
+    margin-right: 10px;
+}
+
+#hotWrite .panel-heading .panel-title a {
+    border-left: 2px solid #f65a8a;
+    padding-left: 15px;
+    margin-left: -16px;
+}
+
+#custom-page .pagination li a {
+    color: #999;
+}
+
+.main .col-md-4 .user-panel {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main .col-md-4 .user-panel div {
+    margin-bottom: 10px;
+}
+
+.main .col-md-4 .user-panel .btn {
+    width: 100%;
+}
+
+.main .col-md-4 .adv {
+    margin-bottom: 20px;
+}
+
+#custom-panel img {
+    width: 100px;
+    height: 100px;
+}
+
+#list .panel-body li {
+    padding: 10px 0;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#list .panel-body li a {
+    color: #333;
 }
